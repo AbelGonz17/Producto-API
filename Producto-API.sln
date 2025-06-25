@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producto-API", "Producto-API\Producto-API.csproj", "{BC52A3A9-5CD1-4E7A-8881-FC622ED05D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producto-API.Test", "Producto-API.Test\Producto-API.Test.csproj", "{F64D4AD7-5A0C-4D93-8BCA-81FD86E2B04C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC52A3A9-5CD1-4E7A-8881-FC622ED05D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC52A3A9-5CD1-4E7A-8881-FC622ED05D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC52A3A9-5CD1-4E7A-8881-FC622ED05D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC52A3A9-5CD1-4E7A-8881-FC622ED05D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64D4AD7-5A0C-4D93-8BCA-81FD86E2B04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64D4AD7-5A0C-4D93-8BCA-81FD86E2B04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64D4AD7-5A0C-4D93-8BCA-81FD86E2B04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64D4AD7-5A0C-4D93-8BCA-81FD86E2B04C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
