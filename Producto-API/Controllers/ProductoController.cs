@@ -69,8 +69,6 @@ namespace Producto_API.Controllers
         [HttpPost("CrearProducto")]
         [ProducesResponseType(typeof(ProductoDTO), 201)]
         [ProducesResponseType(typeof(List<ValidationFailure>), 400)]
-
-
         public async Task<ActionResult<ProductoDTO>> CrearProducto([FromBody] CrearProductoDTO crearProductoDTO)
         {
             var resultadovalidaciones = await validator.ValidateAsync(crearProductoDTO);
